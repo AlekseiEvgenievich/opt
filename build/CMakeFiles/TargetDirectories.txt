@@ -1,0 +1,3 @@
+/Users/aleksejsmirnov/Downloads/creation/opt/build/CMakeFiles/opt.dir
+/Users/aleksejsmirnov/Downloads/creation/opt/build/CMakeFiles/edit_cache.dir
+/Users/aleksejsmirnov/Downloads/creation/opt/build/CMakeFiles/rebuild_cache.dir

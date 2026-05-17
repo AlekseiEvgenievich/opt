@@ -1,0 +1,100 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "AppleClang",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/Users/aleksejsmirnov/Software/CADmesh/install/include",
+						"/opt/homebrew/Cellar/root/6.30.04/include",
+						"/opt/homebrew/Cellar/xerces-c/3.2.4_1/include",
+						"/opt/homebrew/Cellar/expat/2.5.0/include",
+						"/opt/homebrew/Cellar/qt@5/5.15.10/include",
+						"/opt/homebrew/Cellar/clhep/2.4.6.3/include",
+						"/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include",
+						"/Library/Developer/CommandLineTools/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/lib"
+					],
+					"linkFrameworkDirectories" : 
+					[
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks"
+					],
+					"linkLibraries" : []
+				},
+				"path" : "/usr/bin/clang",
+				"version" : "14.0.0.14000029"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "AppleClang",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/Users/aleksejsmirnov/Software/CADmesh/install/include",
+						"/opt/homebrew/Cellar/root/6.30.04/include",
+						"/opt/homebrew/Cellar/xerces-c/3.2.4_1/include",
+						"/opt/homebrew/Cellar/expat/2.5.0/include",
+						"/opt/homebrew/Cellar/qt@5/5.15.10/include",
+						"/opt/homebrew/Cellar/clhep/2.4.6.3/include",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1",
+						"/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include",
+						"/Library/Developer/CommandLineTools/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/lib"
+					],
+					"linkFrameworkDirectories" : 
+					[
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks"
+					],
+					"linkLibraries" : 
+					[
+						"c++"
+					]
+				},
+				"path" : "/usr/bin/clang++",
+				"version" : "14.0.0.14000029"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
